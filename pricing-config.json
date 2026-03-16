@@ -1,0 +1,180 @@
+{
+  "lastUpdated": "2026-01-27",
+  "currency": "INR",
+  "discountActive": true,
+  "discountPercentage": 50,
+  "packages": [
+    {
+      "id": "portfolio-starter",
+      "name": "Personal Portfolio",
+      "price": 5000,
+      "originalPrice": 15999,
+      "priceUSD": 60,
+      "priceLabel": "One-time payment",
+      "description": "Perfect for individuals, freelancers, and professionals who want to showcase their work with elegance.",
+      "features": [
+        "Up to 5 pages",
+        "Fully responsive design",
+        "Contact form integration",
+        "SEO optimization",
+        "Free GitHub Pages hosting setup",
+        "Social media integration",
+        "Google Analytics setup"
+      ],
+      "timeline": "1-2 weeks",
+      "featured": false
+    },
+    {
+      "id": "business-premium",
+      "name": "Business Websites",
+      "price": 6000,
+      "originalPrice": 16999,
+      "priceUSD": 72,
+      "priceLabel": "One-time payment",
+      "description": "Ideal for cafes, hotels, restaurants, and boutique businesses that demand a distinguished online presence.",
+      "features": [
+        "Up to 15 pages",
+        "Custom luxury design",
+        "Google Maps integration",
+        "Menu/Services showcase",
+        "Blog/News section",
+        "Email newsletter integration",
+        "Advanced SEO",
+        "Performance optimization"
+      ],
+      "timeline": "2-4 weeks",
+      "featured": true
+    },
+    {
+      "id": "ecommerce-pro",
+      "name": "E-Commerce (Shopify Store)",
+      "price": 4000,
+      "originalPrice": 13999,
+      "priceUSD": 48,
+      "priceLabel": "One-time payment",
+      "description": "Custom Shopify store setup with luxury design. Full-featured online store that converts visitors into customers.",
+      "features": [
+        "Custom Shopify theme design",
+        "Product catalog setup",
+        "Secure payment gateway",
+        "Shopping cart & checkout",
+        "Inventory management",
+        "Customer account system",
+        "Order tracking",
+        "Product reviews",
+        "Mobile commerce optimization",
+        "Basic SEO setup"
+      ],
+      "timeline": "4-6 weeks",
+      "featured": false
+    },
+    {
+      "id": "custom-enterprise",
+      "name": "Custom Web Applications",
+      "price": 10000,
+      "priceMin": 4000,
+      "priceUSD": 120,
+      "priceMinUSD": 48,
+      "priceLabel": "Starting from",
+      "description": "Bespoke web applications tailored to your unique vision. Flexible pricing based on complexity.",
+      "features": [
+        "Fully custom architecture",
+        "Advanced backend systems",
+        "Database design & optimization",
+        "Third-party API integrations",
+        "User roles & permissions",
+        "Enterprise-grade security",
+        "Scalable infrastructure",
+        "Complete documentation",
+        "Training sessions"
+      ],
+      "timeline": "6-12 weeks",
+      "featured": false
+    },
+    {
+      "id": "static-express",
+      "name": "Static & Portfolio Sites",
+      "price": 2000,
+      "originalPrice": 5999,
+      "priceUSD": 24,
+      "priceLabel": "One-time payment",
+      "description": "Lightning-fast static websites with no backend. Perfect for portfolios and landing pages. Free hosting included.",
+      "features": [
+        "Up to 5 pages",
+        "Modern responsive design",
+        "Contact form",
+        "No backend complexity",
+        "Ultra-fast loading (< 0.5s)",
+        "Free GitHub Pages hosting",
+        "Custom domain setup",
+        "SEO optimization"
+      ],
+      "timeline": "1 week",
+      "featured": false
+    }
+  ],
+  "addons": [
+    {
+      "name": "Content Management System (CMS)",
+      "price": 499,
+      "description": "Add easy content editing without technical knowledge"
+    },
+    {
+      "name": "Multilingual Support",
+      "price": 399,
+      "description": "Support for multiple languages with easy switching"
+    },
+    {
+      "name": "Advanced Analytics Dashboard",
+      "price": 299,
+      "description": "Custom analytics and reporting dashboard"
+    },
+    {
+      "name": "Live Chat Integration",
+      "price": 199,
+      "description": "Real-time customer support chat"
+    },
+    {
+      "name": "Email Marketing Integration",
+      "price": 249,
+      "description": "Mailchimp, SendGrid, or custom email campaigns"
+    }
+  ],
+  "hosting": {
+    "selfHosted": {
+      "price": 0,
+      "description": "Deploy to your own infrastructure with our free guidance"
+    },
+    "managedHosting": {
+      "pricePerMonth": 49,
+      "description": "We manage everything - domain, hosting, SSL, backups",
+      "includes": [
+        "99.9% uptime guarantee",
+        "Daily automated backups",
+        "SSL certificate",
+        "CDN integration",
+        "Performance monitoring",
+        "Security updates"
+      ]
+    },
+    "githubPages": {
+      "price": 0,
+      "description": "Free hosting for static sites with our setup assistance"
+    }
+  },
+  "bonuses": {
+    "documentation": "Comprehensive documentation for all features",
+    "securityReview": "Professional security audit and recommendations",
+    "support": "2 months of free email and chat support",
+    "consultation": "Free domain and hosting strategy consultation",
+    "training": "1-hour training session on using your new website"
+  },
+  "notes": [
+    "All prices are one-time development fees unless specified",
+    "20% launch discount applied to all packages (limited time)",
+    "Hosting and domain costs are separate (if applicable)",
+    "Custom features can be added to any package",
+    "Enterprise authentication (Azure AD, OAuth) available on request",
+    "Payment plans available for projects over $2000"
+  ]
+}
